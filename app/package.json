@@ -2,8 +2,9 @@
   "name": "app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "calculator.js",
   "scripts": {
+    "lint": "eslint ./src/*.js",
     "test": "vitest run"
   },
   "keywords": [],
@@ -11,6 +12,9 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
     "vitest": "^4.1.11"
   }
 }
